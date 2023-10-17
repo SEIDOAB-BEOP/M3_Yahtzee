@@ -42,7 +42,7 @@ namespace M3_Yahtzee
         /// </summary>
         public ICupOfDice Shake();
 
-        //ToString()
+        //public string ToString();
         //Should override ToString() to print out the dices in the cup
 
         //Constructors, Should contain one constructors
