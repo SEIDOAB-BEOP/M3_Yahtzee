@@ -90,6 +90,9 @@ namespace M3_Yahtzee
 
         public csCupOfDice(int _nrOfDices)
         {
+            if (_nrOfDices < 1 || _nrOfDices > 10)
+                throw new ArgumentOutOfRangeException("Tjabba");
+
             for (int i = 0; i < _nrOfDices; i++)
             {
                 //_dice.Add((enDiceFace)_rnd.Next(1,7));
@@ -97,5 +100,4 @@ namespace M3_Yahtzee
             }
         }
     }
-    
 }
