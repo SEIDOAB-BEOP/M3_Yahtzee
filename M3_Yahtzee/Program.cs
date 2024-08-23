@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using Helpers;
+using Seido.Utilities.SeedGenerator;
+using Seido.Utilities.ConsoleInput;
 
 namespace M3_Yahtzee
 {

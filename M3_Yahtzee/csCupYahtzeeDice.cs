@@ -1,4 +1,6 @@
-﻿namespace M3_Yahtzee
+﻿using Seido.Utilities.SeedGenerator;
+
+namespace M3_Yahtzee
 {
 
     class csCupYahtzeeDice : csCupOfDice, ICupYahtzeeDice
